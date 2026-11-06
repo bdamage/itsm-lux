@@ -1,0 +1,11 @@
+{
+  "name": "ITSM Lux",
+  "basename": "itsm-lux",
+  "landing": "/home",
+  "development": {
+    "token": ""
+  },
+  "build": {
+    "exclude": ["**/*.test.js", "**/test/**"]
+  }
+}

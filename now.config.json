@@ -1,0 +1,15 @@
+{
+  "scope": "x_snc_itsm_lux",
+  "scopeId": "e5259e5785ab40bdadc0a49c8c5ac789",
+  "name": "ITSM Lux",
+  "metadataDir": "src/plugin-xmls",
+  "appOutputDir": "dist-metadata/app",
+  "packageSourceCodeOnInstance": true,
+  "staticContent": {
+    "assets": {
+      "./public/**": {
+        "publicPath": "[$config.aiux.basename]/public"
+      }
+    }
+  }
+}
