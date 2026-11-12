@@ -36,7 +36,12 @@ export default [
       'coverage/**',
       'target/**',
       '.types/**',
-      '@types/**'
+      '@types/**',
+      // Vendored agent-pack skills (re-copied on install) and generated dev sandboxes
+      '.claude/**',
+      '.agents/**',
+      'pages/.widget-sandbox/**',
+      'pages/.widget-sandbox-bare/**'
     ]
   },
   js.configs.recommended,
@@ -52,7 +57,7 @@ export default [
   },
   // Fluent server-side scripts (business rules, flow actions) — Glide globals
   {
-    files: ['src/fluent/**/*.js', 'components/**/server-script.js'],
+    files: ['src/fluent/**/*.js', 'components/**/server-script.js', 'widgets/**/server-script.js'],
     languageOptions: {
       globals: {
         GlideRecord: 'readonly',

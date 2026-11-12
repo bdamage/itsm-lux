@@ -14,3 +14,7 @@ pages/.widget-sandbox/
 pages/.widget-sandbox-bare/
 
 .jest_cache
+# >>> aiux widget sandbox (auto-managed)
+pages/.widget-sandbox/
+pages/.widget-sandbox-bare/
+# <<< aiux widget sandbox

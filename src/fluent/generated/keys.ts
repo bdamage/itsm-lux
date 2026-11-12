@@ -29,6 +29,10 @@ declare global {
                         table: 'sys_aix_experience_properties'
                         id: '2c88931bff78bbc025b4b2b59175365e'
                     }
+                    'aiux-experience-prop|appPlatform': {
+                        table: 'sys_aix_experience_properties'
+                        id: 'aa58fe741cbbfafecd779b95e408f9bf'
+                    }
                     'aiux-experience-prop|appTailwindCss': {
                         table: 'sys_aix_experience_properties'
                         id: 'ef9b71d5a7e028178e58a418b0a6d83a'
