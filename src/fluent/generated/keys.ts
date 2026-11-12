@@ -5,91 +5,91 @@ declare global {
         namespace Internal {
             interface Keys extends KeysRegistry {
                 explicit: {
-                    'aiux-acl|x-snc-itsm-lux-home-page|read|itsm-dashboard-access': {
+                    'aiux-acl|x-kjell-itsm-lux-home-page|read|itsm-dashboard-access': {
                         table: 'sys_security_acl'
-                        id: '4c5b20826b744a9a86c471e55ea17c40'
+                        id: 'c4b2856a097041569598085c937763b8'
                     }
-                    'aiux-acl|x-snc-itsm-lux-incidents-page|read|itsm-incidents-access': {
+                    'aiux-acl|x-kjell-itsm-lux-incidents-page|read|itsm-incidents-access': {
                         table: 'sys_security_acl'
-                        id: '08095a8f6a3541f9ae936398da2ce68b'
+                        id: 'd8dbac7818f94c098439f5ef72e199bc'
                     }
-                    'aiux-color-swatch|itsm-lux': {
+                    'aiux-color-swatch|itsm-lux-v2': {
                         table: 'sys_aix_color_swatch'
-                        id: '1722a5d3114ff52d1618d23c3d89c76a'
+                        id: '3b212e54a464b1beb1f213c3befe312c'
                     }
-                    'aiux-experience-page-rel|x-snc-itsm-lux-home-page': {
+                    'aiux-experience-page-rel|x-kjell-itsm-lux-home-page': {
                         table: 'sys_aix_experience_page_rel'
-                        id: '097512078f80d6ad2b544d11ce103fba'
+                        id: '042f7cd8a554f53c76865aa7ed62e44f'
                     }
-                    'aiux-experience-page-rel|x-snc-itsm-lux-incidents-page': {
+                    'aiux-experience-page-rel|x-kjell-itsm-lux-incidents-page': {
                         table: 'sys_aix_experience_page_rel'
-                        id: 'c2a9c6a85421b513e57268792ab85ffd'
+                        id: '454dd0172fa393a7320b1955b69c583c'
                     }
                     'aiux-experience-prop|appHeadCss': {
                         table: 'sys_aix_experience_properties'
-                        id: '2c88931bff78bbc025b4b2b59175365e'
+                        id: '6de2f94abef15135073ee84da82d0dfe'
                     }
                     'aiux-experience-prop|appPlatform': {
                         table: 'sys_aix_experience_properties'
-                        id: 'aa58fe741cbbfafecd779b95e408f9bf'
+                        id: 'f676b563eb1e5cd6ab55edf4d0c3a899'
                     }
                     'aiux-experience-prop|appTailwindCss': {
                         table: 'sys_aix_experience_properties'
-                        id: 'ef9b71d5a7e028178e58a418b0a6d83a'
+                        id: '8a022a54e2658de08e8b6cc5338dfe78'
                     }
-                    'aiux-experience|itsm-lux': {
+                    'aiux-experience|itsm-lux-v2': {
                         table: 'sys_aix_experience'
-                        id: '42ae8fc549071a0a294c4f318ad70c96'
+                        id: '3ab2b8ca10d3781f0b8ed63be5b1df12'
                     }
                     'aiux-layout-widget|lifecycle': {
                         table: 'sys_aix_widget'
-                        id: '3be9da93417325b2ed8f250c7f5f56b1'
+                        id: '201de7aa2dad7bd82848c18c852aef3d'
                     }
-                    'aiux-page-widget|x-snc-itsm-lux-home-page': {
+                    'aiux-page-widget|x-kjell-itsm-lux-home-page': {
                         table: 'sys_aix_widget'
-                        id: '34b55e43f21ad37e228327ec7e42f1cd'
+                        id: '1052768c7b7fef8fe98a7bc610678d0c'
                     }
-                    'aiux-page-widget|x-snc-itsm-lux-incidents-page': {
+                    'aiux-page-widget|x-kjell-itsm-lux-incidents-page': {
                         table: 'sys_aix_widget'
-                        id: 'cde07ca7ce79cabfb8c80c0887d675af'
+                        id: '76feb10a13061273086e7639f18e8a70'
                     }
-                    'aiux-page|x-snc-itsm-lux-home-page': {
+                    'aiux-page|x-kjell-itsm-lux-home-page': {
                         table: 'sys_aix_page'
-                        id: 'dfaf765e5724bb0b0769719c371e5ce6'
+                        id: 'aac8467ce8fd251c22e1d94d2eb73576'
                     }
-                    'aiux-page|x-snc-itsm-lux-incidents-page': {
+                    'aiux-page|x-kjell-itsm-lux-incidents-page': {
                         table: 'sys_aix_page'
-                        id: '03c708fc0592cc497df287571afbf797'
+                        id: '97dca9785d2738e6f3e6ea123d985e05'
                     }
-                    'aiux-project|x_snc_itsm_lux': {
+                    'aiux-project|x_kjell_itsm_lux': {
                         table: 'sys_aix_project'
-                        id: '77cc557ef9558d03dc4fd185f145be1c'
+                        id: '315a5d5f2a519adb993f2a33e4d84b08'
                     }
-                    'aiux-theme|itsm-lux': {
+                    'aiux-theme|itsm-lux-v2': {
                         table: 'sys_aix_theme'
-                        id: 'c72e4331ba0178792fcc6be07d677ac3'
+                        id: '828c11496bb6a5933889fb648a7e0cfa'
                     }
                     'aiux-widget|aiux-hello-world': {
                         table: 'sys_aix_widget'
-                        id: '9764030858ac007472dac00c2be9249d'
+                        id: '343668e2c37074e012f0d4ec175b4894'
                     }
                     bom_json: {
                         table: 'sys_module'
-                        id: 'e0a180c4ae40453dad9560d0c4a5299f'
+                        id: '975cfd68eaaf4c09bcb4268d91733f65'
                     }
                     package_json: {
                         table: 'sys_module'
-                        id: 'f4f4a60765784a97812e9b6f0c552949'
+                        id: '546e82648d5541919b2157bfc956f384'
                     }
                 }
                 composite: [
                     {
                         table: 'sys_security_acl_role'
-                        id: '30f7db49d4f34cbd85b5433b41e4b4da'
+                        id: '26564fb9bcbf493cb4182d61b2ac1e50'
                         key: {
-                            sys_security_acl: '08095a8f6a3541f9ae936398da2ce68b'
+                            sys_security_acl: 'c4b2856a097041569598085c937763b8'
                             sys_user_role: {
-                                id: 'b662661bb0a84de59b8ea49a2722111b'
+                                id: 'f547e9aa5221496ea4cf4072067f5f29'
                                 key: {
                                     name: 'admin'
                                 }
@@ -98,19 +98,26 @@ declare global {
                     },
                     {
                         table: 'sn_glider_source_artifact_m2m'
-                        id: '607f7dd5654a4645b66408dcc1412f02'
+                        id: '6608f682a46d4c64b19f0def58173235'
                         key: {
-                            application_file: '77cc557ef9558d03dc4fd185f145be1c'
-                            source_artifact: '7f6253e266c84a309a12e560d6dd3cbb'
+                            application_file: '315a5d5f2a519adb993f2a33e4d84b08'
+                            source_artifact: '9a66200e412d457dbe1600df18a5c66b'
+                        }
+                    },
+                    {
+                        table: 'sn_glider_source_artifact'
+                        id: '9a66200e412d457dbe1600df18a5c66b'
+                        key: {
+                            name: 'aiux-source 315a5d5f2a519adb993f2a33e4d84b08'
                         }
                     },
                     {
                         table: 'sys_security_acl_role'
-                        id: '794e216ab28d49c4a59bc14eb7261ce7'
+                        id: 'a39516f35938410798a6a4129a36c9ae'
                         key: {
-                            sys_security_acl: '08095a8f6a3541f9ae936398da2ce68b'
+                            sys_security_acl: 'c4b2856a097041569598085c937763b8'
                             sys_user_role: {
-                                id: 'a6661c2edbf642539978e7c9a9dfb285'
+                                id: '1f905839e5884b3e85dda486e4b68145'
                                 key: {
                                     name: 'itil'
                                 }
@@ -118,19 +125,12 @@ declare global {
                         }
                     },
                     {
-                        table: 'sn_glider_source_artifact'
-                        id: '7f6253e266c84a309a12e560d6dd3cbb'
-                        key: {
-                            name: 'aiux-source 77cc557ef9558d03dc4fd185f145be1c'
-                        }
-                    },
-                    {
                         table: 'sys_security_acl_role'
-                        id: '8d8172f9c1b7441dba28fe245ac2eb6a'
+                        id: 'd5b2793faec244c38f8d49362181576a'
                         key: {
-                            sys_security_acl: '4c5b20826b744a9a86c471e55ea17c40'
+                            sys_security_acl: 'd8dbac7818f94c098439f5ef72e199bc'
                             sys_user_role: {
-                                id: 'b662661bb0a84de59b8ea49a2722111b'
+                                id: 'f547e9aa5221496ea4cf4072067f5f29'
                                 key: {
                                     name: 'admin'
                                 }
@@ -139,11 +139,11 @@ declare global {
                     },
                     {
                         table: 'sys_security_acl_role'
-                        id: 'c6404f5ee236411f8826ae5493c74a14'
+                        id: 'e616a76356bb4a3b855b6ec6a64ca752'
                         key: {
-                            sys_security_acl: '4c5b20826b744a9a86c471e55ea17c40'
+                            sys_security_acl: 'd8dbac7818f94c098439f5ef72e199bc'
                             sys_user_role: {
-                                id: 'a6661c2edbf642539978e7c9a9dfb285'
+                                id: '1f905839e5884b3e85dda486e4b68145'
                                 key: {
                                     name: 'itil'
                                 }

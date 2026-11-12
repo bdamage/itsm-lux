@@ -8,7 +8,7 @@ import {resolveUrlParams, writeToUrl} from './url-sync.js';
 
 const {acl} = decorators;
 
-@customElement('x-snc-itsm-lux-incidents-page')
+@customElement('x-kjell-itsm-lux-incidents-page')
 @acl([{decision: 'allow_if', roles: ['itil', 'admin'], id: 'itsm-incidents-access'}])
 export default class IncidentsPage extends AIUXElement {
   static styles = css`

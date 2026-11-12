@@ -1,7 +1,7 @@
 {
-  "scope": "x_snc_itsm_lux",
-  "scopeId": "e5259e5785ab40bdadc0a49c8c5ac789",
-  "name": "ITSM Lux",
+  "scope": "x_kjell_itsm_lux",
+  "scopeId": "bf33166f6b9941f795821fa6db3a3d97",
+  "name": "ITSM Lux v2",
   "metadataDir": "src/plugin-xmls",
   "appOutputDir": "dist-metadata/app",
   "packageSourceCodeOnInstance": true,

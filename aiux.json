@@ -1,6 +1,6 @@
 {
-  "name": "ITSM Lux",
-  "basename": "itsm-lux",
+  "name": "ITSM Lux v2",
+  "basename": "itsm-lux-v2",
   "landing": "/home",
   "development": {
     "token": ""

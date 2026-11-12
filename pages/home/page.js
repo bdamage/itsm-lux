@@ -103,7 +103,7 @@ function settled(result, fallback) {
   return result.status === 'fulfilled' ? result.value : fallback;
 }
 
-@customElement('x-snc-itsm-lux-home-page')
+@customElement('x-kjell-itsm-lux-home-page')
 @acl([{decision: 'allow_if', roles: ['itil', 'admin'], id: 'itsm-dashboard-access'}])
 export default class DashboardPage extends AIUXElement {
   static styles = css`
